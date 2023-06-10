@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+</head>
+
+<body>
+    <button onclick="
+        console.log('Cart Quantity: ${cartQuantity}');
+        "> Show Quantity</button>
+
+    <button onclick="
+    cartQuantity ++;
+    console.log('Cart Quantity: ${cartQuantity} ');
+    ">Add to Cart</button>
+
+    <button onclick="
+    cartQuantity +=2;
+    console.log('cartQuantity:${cartQuantity}');
+    ">+2</button>
+    <button onclick="
+    cartQuantity = cartQuantity + 3;
+    console.log('cartQuantity: ${cartQuantity}');
+    ">+3</button>
+    <button onclick="
+    cartQuantity=0; 
+    ">Reset Cart</button>
+
+
+    <script>
+        // const cartQuantity = 0;
+        // console.log(typeof J);
+        // // let variable1 = 2;
+        // // console.log(variable1);
+        // // let calculation = 2 + 2;
+        // // console.log(calculation);
+        // // let result = calculation + 3;
+        // // console.log(result);
+        /* true
+         false
+         console.log(5 >= 4);
+         console.log(5 === '5.00');
+
+         if (false) {
+             console.log('Hello');
+         } else {
+             console.log('hello world');
+         }
+
+         if (14 >= 16) {
+             console.log('you can drive');
+             console.log('congrats!')
+         } else if (30 >= 40) {
+             console.log('you cannot drive');
+             console.log('sorry, grow more');
+         } else {
+             console.log('you cannot drive');
+             console.log('sorry, grow more');
+         } */
+        console.log(true && false);
+        console.log(0.2 >= 0 && 0.2 < 1 / 3); // And or comparison.
+        console.log(true || false); //OR operator.
+        console.log(!false); //Not operator
+    </script>
+</body>
+
+</html>
