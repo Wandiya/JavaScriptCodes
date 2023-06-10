@@ -197,7 +197,7 @@ console.log(object5);
 object5.method();
 // console.log(typeof message);
 */
-
+/*
 // LinkedIn exercise
 const b = {
     name: "Vivek",
@@ -212,4 +212,5 @@ const b = {
     }
 }
 b.f(); // output: Vivek.
+*/
 // DOCUMENT OBJECT MODULE(DOM) lesson
