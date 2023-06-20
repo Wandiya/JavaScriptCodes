@@ -202,7 +202,7 @@ object5.method();
 const b = {
     name: "Vivek",
     f: function() {
-        var self = this;
+         var self = this;
         (function() {
 
             console.log(this.name);
@@ -214,3 +214,5 @@ const b = {
 b.f(); // output: Vivek.
 */
 // DOCUMENT OBJECT MODULE(DOM) lesson
+// DOM = another built-in objects, it combines JS and HTML together. it gives JS full control of the webpage.
+// Note: HTML element are Javascript objects. objects are values
